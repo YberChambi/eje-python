@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_geek():
-    return '<h1>Hello from FLASK and DOCKER</h2>'
+    return '<h1>Ejercicios python en FLASK WEB</h1>'
 
 
 if __name__ == "__main__":
