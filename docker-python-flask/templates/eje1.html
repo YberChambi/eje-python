@@ -1,0 +1,14 @@
+{% extends './base.html' %}
+{% block contenido %}
+<p>
+    ejercicio1
+</p>
+<form class="form-singin" action="/eje1" method="POST">
+    
+    <h1>suma dos numeros</h1>
+    <input type="number" name="a" id="a" placeholder="a" required>
+    <br>
+    <input type="number" name="b" id="b" placeholder="b" required>
+    <button type="submit">sumar</button>
+</form>
+{% endblock %}
