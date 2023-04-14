@@ -34,6 +34,7 @@ def eje1():
     else:
         return render_template('eje1.html',data=data)
 
+@app.route('/')
 def index():
     data={
         'titulo': 'index',
